@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Serve Local",
+			"type": "shell",
+			"command": "python"
+		},
+		{
+			"label": "Serve Local",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"http.server",
+				"8000"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}
